@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+#logo
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(239, 246, 248);
+    text-decoration: none;
+}
+.bar
+{
+    position: fixed;
+    background: rgb(6, 37, 127);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.26);
+    width: 100%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.navlink
+{
+    text-decoration: none;
+    color:  white;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.navlink:hover
+{
+    color: white;
+}
+.bar ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+}
+
+
+.button
+{
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 30px;
+    border-radius: 5%;
+    text-align: center;
+    color:   rgb(6, 37, 127);
+    padding: 10px;
+    display: block;
+    background-color: white;
+}
+.button:hover{
+    color: black;
+}
+
+
+#home p{
+    font-size: 30px;
+    margin-left: 1px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(6, 37, 127);
+}
+
+
+#home
+{
+    background: white;
+    color: rgb(6, 37, 127);
+
+    padding-top: 200px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 350px;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+
+
+#home h1
+{
+    font-size: 50px;
+    color: rgb(6, 37, 127);
+}
+.large-icon
+{
+    display: block;
+    width: 1000px;
+    height: auto;
+    
+    border-radius: 50%;
+    overflow: hidden;
+}
+#bio article h1{
+    letter-spacing: 0.5px;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+}
+#bio
+{
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 250px;
+    background: rgb(3, 25, 92);
+}
+#bio article
+{
+    padding-left: 50px;  
+}
+.link-button
+{
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px 2px;
+    cursor: pointer;
+    background-color: rgb(50, 50, 53); 
+    color: white;
+    border: 2px solid white;
+    border-radius: 2%;
+}
+
+
+#portfolio
+{
+    margin-top: 0%;
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 17%;
+    margin-bottom: 0%;
+    background-color: white;;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#portfolio h2,p{
+    color: white;
+}
+hr{
+    width: 500px;
+    margin-bottom: 20px;
+}
+#portfolio h2{
+    padding-top: 70px; 
+    color: rgb(6, 37, 127);
+
+
+}
+#portfolio #first{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color: rgb(6, 37, 127);  
+}
+.port-div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-centered;
+}
+.port-div h4{
+    color: white;
+    font-size: 25px;
+}
+.port-div p{
+    color: white;
+    padding-bottom: 50px;
+}
+.small-icon
+{
+    height:50px;
+    width: 50px;
+    padding-bottom: 12%;
+}
+.port-div article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(3, 25, 92);
+    color: white;
+    border: 3px solid rgb(7, 3, 132);
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+    margin: 20px 0px;
+    margin-right: 10px;
+}
+.port-div article p{
+    color: white;
+}
+.port-div article p,h2,img{
+    text-align: center;
+    padding: 20px 5px 0 5px;
+}
+
+.programming{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+
+.languageskill
+{
+    width: 30%;
+}
+.skill h4{
+    padding-bottom: 10%;
+    font-size: 30px;
+}
+
+
+.skill ul
+{
+    list-style: none;
+}
+.techskill{
+    margin-right: 90px;
+    margin-left: -20px;
+}
+.designskill{
+    margin-right: 90px;
+    margin-left: 120px;
+}
+progress
+{
+    height: 10px;
+    border-radius: 90%;
+    width: 120%;
+    border: 1px solid white;
+    
+}
+progress::-webkit-progress-value 
+{
+    background-color: rgb(152, 171, 230);
+    
+}
+#skills
+{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 8%;
+    background: rgb(3, 25, 92);
+    height: 450px;
+}
+#skills ul{
+    list-style: none;
+    font-size: 1.5em;
+}
+#skills ul li{
+    margin: 10px 0px;
+}
+#skills h3
+{
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 40px;
+    margin-top: -50px;
+}
+.skill
+{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20%;
+}
+.abc p{
+    font-size: larger;
+}
+
+
+#contact
+{
+    color: rgb(6, 37, 127);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#contact h2
+{
+    padding-top: 2%;    
+    padding-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+}
+#contact p{
+    color: rgb(6, 37, 127);
+    text-align: center;
+    padding: 1.5px;
+}
+
+
+#contact img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    margin-right: 5px;
+}
